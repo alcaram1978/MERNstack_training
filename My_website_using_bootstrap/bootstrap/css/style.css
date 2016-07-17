@@ -1,0 +1,12 @@
+# Empty CSS file for your own CSS
+
+.jumbotron {
+    margin-bottom: 0px;
+  /*  background: #314656; */
+    background-image: url("../images/image_ims.jpg") center center;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
