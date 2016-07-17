@@ -1,0 +1,25 @@
+CountryName,CountryCode,IndicatorName,IndicatorCode,Year,Value
+Arab World,ARB,"Adolescent fertility rate (births per 1000 women ages 15-19)",SP.ADO.TFRT,1960,133.5609074
+Arab World,ARB,Age dependency ratio (% of working-age population),SP.POP.DPND,1960,87.79760115
+Arab World,ARB,"Age dependency ratio, old (% of working-age population)",SP.POP.DPND.OL,1960,6.634579192
+Arab World,ARB,"Age dependency ratio, young (% of working-age population)",SP.POP.DPND.YG,1960,81.02332951
+Arab World,ARB,Arms exports (SIPRI trend indicator values),MS.MIL.XPRT.KD,1960,3000000
+Arab World,ARB,Arms imports (SIPRI trend indicator values),MS.MIL.MPRT.KD,1960,538000000
+Arab World,ARB,"Birth rate  crude (per 1000 people)",SP.DYN.CBRT.IN,1960,47.6978881
+Arab World,ARB,CO2 emissions (kt),EN.ATM.CO2E.KT,1960,59563.98922
+Arab World,ARB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1960,0.643963548
+Arab World,ARB,CO2 emissions from gaseous fuel consumption (% of total),EN.ATM.CO2E.GF.ZS,1960,5.041291754
+Arab World,ARB,CO2 emissions from liquid fuel consumption (% of total),EN.ATM.CO2E.LF.ZS,1960,84.85147294
+Arab World,ARB,CO2 emissions from liquid fuel consumption (kt),EN.ATM.CO2E.LF.KT,1960,49541.70729
+Arab World,ARB,CO2 emissions from solid fuel consumption (% of total),EN.ATM.CO2E.SF.ZS,1960,4.726981388
+Arab World,ARB,"Death rate  crude (per 1000 people)",SP.DYN.CDRT.IN,1960,19.75445192
+Arab World,ARB,"Fertility rate  total (births per woman)",SP.DYN.TFRT.IN,1960,6.924027387
+Arab World,ARB,Fixed telephone subscriptions,IT.MLT.MAIN,1960,406833
+Arab World,ARB,Fixed telephone subscriptions (per 100 people),IT.MLT.MAIN.P2,1960,0.61670057
+Arab World,ARB,"Hospital beds (per 1000 people)",SH.MED.BEDS.ZS,1960,1.929622072
+Arab World,ARB,International migrant stock (% of population),SM.POP.TOTL.ZS,1960,2.990637128
+Arab World,ARB,"International migrant stock, total",SM.POP.TOTL,1960,3324685
+Arab World,ARB,"Life expectancy at birth  female (years)",SP.DYN.LE00.FE.IN,1960,47.88324586
+Arab World,ARB,"Life expectancy at birth  male (years)",SP.DYN.LE00.MA.IN,1960,45.86294923
+Arab World,ARB,"Life expectancy at birth  total (years)",SP.DYN.LE00.IN,1960,46.84705856
+Arab World,ARB,Merchandise exports (current US$),TX.VAL.MRCH.CD.WT,1960,4645918769

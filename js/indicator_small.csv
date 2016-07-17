@@ -1,0 +1,5 @@
+CountryName,CountryCode,IndicatorName,IndicatorCode,Year,Value
+Arab World,ARB,"Adolescent fertility rate (births per 1000 women ages 15-19)",SP.ADO.TFRT,1960,133.5609074
+Arab World,ARB,Age dependency ratio (% of working-age population),SP.POP.DPND,1960,87.79760115
+Arab World,ARB,"Age dependency ratio old (% of working-age population)",SP.POP.DPND.OL,1960,6.634579192
+Arab World,ARB,"Age dependency ratio young (% of working-age population)",SP.POP.DPND.YG,1960,81.02332951
