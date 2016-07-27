@@ -1,0 +1,65 @@
+body{
+    margin-top: 30px;
+}
+
+.search-form{
+    width: 100%;
+    margin: auto;
+    background: #f4f4f4;
+    padding: 0 20px 20px 20px;
+    border: 1px #ccc solid;
+    border-radius: 10px;
+}
+
+img{
+    height : 30%;
+    width: 70%;
+    padding :(40px,40px);
+
+}
+.jumbotron {
+    margin-bottom: 0px;
+    background: #314656;
+    /*background-image: url("../images/image_ims.jpg") center center;*/
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+   .navbar-default .navbar-nav{
+     background-color: #4c7389;
+     border-color: #4c7389;
+   }
+   .navbar-default .navbar-brand {
+     color: #ecf0f1;
+   }
+
+   .navbar-default .navbar-toggle {
+     border-color: #8e44ad;
+   }
+
+   .navbar-default .navbar-nav > li > a {
+     background-color: #4c7389;
+     border-color: #4c7389;
+     color: #ecf0f1;
+   }
+
+   .navbar-default .navbar-collapse,
+   .navbar-default .navbar-form {
+     border-color: #4c7389;
+   }
+   .navbar-default .navbar-link {
+     color: #ecf0f1;
+   }
+   .navbar-default .navbar-link:hover {
+     color: #ecdbff;
+   }
+.row{
+  margin: 0px;
+}
+.thumbnail {
+  height : 50%;
+  width: 80%;
+}
