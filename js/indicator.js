@@ -21,27 +21,23 @@ var key3 = '\"Life expectancy at birth  total (years)\"';
 var fs = require('fs'),
    readline = require('readline'),
    stream = require('stream'),
-   util = require('util'),
-    es = require('event-stream');
+   util = require('util');
 
-var rl = fs.createReadStream('../../indicators.csv')
-                  .pipe(es.split())
-                  .pipe(es.mapSync(function(line){
 
-/*var outstream = new stream;
+var instream = fs.createReadStream('indicator_sample.csv');
+var outstream = new stream;
 outstream.readable = true;
 outstream.writable = true;
 
 var rl = readline.createInterface({
-   input: instream,
-   output: outstream,
-   terminal: false
-});*/
+    input: instream,
+    output: outstream,
+    terminal: false
+});
 
+  rl.on('line', function(line) {
+    console.log(line);
 
-  //rl.on('line', function(line) {
-    //console.log(line);
-        rl.pause();
         to_string = line.toString().split('\n');
       //  var arr = String(to_string).match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
         var col = to_string[0].split(',');
@@ -89,9 +85,7 @@ var rl = readline.createInterface({
           }
         }
 
-        rl.resume();
-
-  })
+  });
 
   rl.on('close', function() {
     console.log(' the value of first json file - record1 : \n',JSON.stringify(records1));
@@ -99,4 +93,4 @@ var rl = readline.createInterface({
       console.log('Have a great day!');
       process.exit(0);
       });
-);
+
